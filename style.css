@@ -1,0 +1,49 @@
+#banner{
+    /* mudando largura da imagem */
+    width:100%;
+}
+.titulo-principal{
+    /* padding e o espaço da borda e o texto */
+    padding: 20px;
+}
+.principal{
+    /* muda cor do div principal */
+    background:#CCCCCC;
+    padding: 30px;
+}
+.tirulo-centralizado{
+    /*texto no centro*/
+    text-align: center;
+}
+p{
+    /*texto no centro*/
+    text-align: center;
+}
+#missao{
+    /*texto com letra maior*/
+    font-size: 20px;
+}
+em strong{
+    /*texto em negrito com cor vermelho*/
+    color: red;
+}
+.itens{
+    /* muda as classe */
+    font-style: italic
+}
+.beneficios{
+    /* muda cor do div beneficios */
+    background: #FFFFFF;
+    padding: 20px;
+}
+ul{
+    /* para que a imagem se alinhe ao texto */
+    display: inline-block;
+    /* para que o texto fique na parte de cima da imagem */
+    vertical-align: top;
+    width:20%;
+    margin-right:15% ;
+}
+.imagembenefcios{
+    width:50%;
+}
