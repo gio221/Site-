@@ -1,48 +1,84 @@
-<!-- /*inicio de qualquer codigo*/ -->
 <!DOCTYPE html>
-<!-- //codigo tem que estar entre isso o lang e linguagem da pagina -->
 <html lang="pt-br">
-    <head>
-        <!-- //para acentos -->
-        <meta charset="UTF-8">
-        <!-- //titulo da pagina -->
-        <title>Barbearia Giovana</title>
-        <!-- //chamando o arquivo css -->
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!-- cabeçalho da página -->
-        <header>
-            <h1 class="titulo-principal">Barbearia Giovana </h1>
-        </header>
-        <!-- inserir imagem -->
-        <img id="banner" src="banner.jpg">
-        <!-- Dividir em partes -->
-        <div class="principal">
-            <!-- //colocar titulo da página  -->
-            <h2 class="tirulo-centralizado">Sobre a Barbearia Giovana</h2>
-        <!--  //separar os paragrafos -->
-            <p >Localizada no coração da cidade a <strong>Barbearia Giovana </strong>traz para o mercado o que há de melhor para o seu cabelo
-            e barba. Fundada em 2019, a Barbearia Giovana já é destaque na cidade e conquista novos clientes a cada dia.</p>
-            <!--  //strong = texto em negrito -->
-            <!--  //em texto em italico -->
-            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
-        
-            <p >Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão
-            de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+<head>
+    <meta charset="UTF-8">
+    <title>Fluxo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="caixa-azul">
+            <h1 class="titulo-principal">Fluxo do Curso de Bacharelado em Matemática 02/2024</h1>
         </div>
-        <h3 class="tirulo-centralizado">Benefícios</h3>
-        <div class="beneficios">
-            <ul>
-                <!-- listas de coisas -->
-                <li class="itens"> Atendimento aos Clientes</li>
-                <li class="itens"> Espaço diferenciado</li>
-                <li class="itens"> Localização</li>
-                <li class="itens"> Profissionais Qualificados</li>
-            </ul>
-            <img src="beneficios.jpg" class="imagembenefcios">
+        <div class="carga-horaria">
+            <p>Carga Horária</p>
+            <div class="quadrados">
+                <div class="quadrado verde-claro">30h</div>
+                <div class="quadrado cinza">60h</div>
+                <div class="quadrado verde-escuro">90h</div>
+                <div class="quadrado azul-escuro">120h</div>
+            </div>
+            <div class="simbolo-neve">
+                <p>☃ Matéria optativa recomendada</p>
+            </div>
         </div>
-    </body>
-    </html>
-   
+    </header>
     
+    <div class="container">
+        <div class="half">
+            <h2>1º Semestre</h2>
+            <table>
+                <tr>
+                    <td>
+                            CIC0007
+                    </td>
+                    <td>
+                        <a href="https://sigaa.unb.br/sigaa/link/public/ensino/visualizarComponente/177995">
+                            INTRODUÇÃO À CIÊNCIA DA COMPUTAÇÃO
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        MAT0025
+                    </td>
+                    <td>
+                        <a href="https://sigaa.unb.br/sigaa/link/public/ensino/visualizarComponente/177891">
+                            CÁLCULO 1
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        MAT0010
+                    </td>
+                    <td>
+                        <a href="https://sigaa.unb.br/sigaa/link/public/ensino/visualizarComponente/177995" style="display: flex; align-items: center;">
+                            <span>GEOMETRIA ANALÍTICA PARA MATEMÁTICA</span>
+                            <div class="simbolo-neve" style="margin-left: 15px; color: red;">☃</div>
+                        </a>
+                        
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="half">
+            <h2>Título 2º Semestre</h2>
+            <table>
+                <tr>
+                    <td>Linha 1</td>
+                </tr>
+                <tr>
+                    <td>Linha 2</td>
+                </tr>
+                <tr>
+                    <td>Linha 3</td>
+                </tr>
+                <tr>
+                    <td>Linha 4</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

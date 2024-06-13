@@ -1,49 +1,112 @@
-#banner{
-    /* mudando largura da imagem */
-    width:100%;
+.titulo-principal {
+    padding: 5%;
+    font-size: 24px; /* Ajusta o tamanho da fonte conforme necessário */
 }
-.titulo-principal{
-    /* padding e o espaço da borda e o texto */
-    padding: 20px;
-}
-.principal{
-    /* muda cor do div principal */
-    background:#CCCCCC;
-    padding: 30px;
-}
-.tirulo-centralizado{
-    /*texto no centro*/
+
+.caixa-azul {
+    background-color: lightblue;
+    padding: 1%;
+    border-radius: 5%;
     text-align: center;
-}
-p{
-    /*texto no centro*/
-    text-align: center;
-}
-#missao{
-    /*texto com letra maior*/
-    font-size: 20px;
-}
-em strong{
-    /*texto em negrito com cor vermelho*/
-    color: red;
-}
-.itens{
-    /* muda as classe */
-    font-style: italic
-}
-.beneficios{
-    /* muda cor do div beneficios */
-    background: #FFFFFF;
-    padding: 20px;
-}
-ul{
-    /* para que a imagem se alinhe ao texto */
+    margin: 2% auto; /* Centraliza horizontalmente e define margem vertical */
+    width: 24%; /* Ajuste a largura conforme necessário */
+    border: 2px solid black; /* Adiciona uma borda preta de 2px */
     display: inline-block;
-    /* para que o texto fique na parte de cima da imagem */
-    vertical-align: top;
-    width:20%;
-    margin-right:15% ;
 }
-.imagembenefcios{
-    width:50%;
+
+.carga-horaria {
+    display: inline-block; /* Altera o comportamento para inline-block */
+    margin-left: 30%; /* Adiciona margem à esquerda para separação */
+}
+
+.quadrados {
+    margin-top: 10px; /* Adiciona espaço entre "Carga Horária" e os quadrados */
+}
+
+.quadrado {
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    margin-right: 30px; /* Adiciona espaço entre os quadrados */
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.verde-claro {
+    background-color: lightgreen;
+}
+
+.cinza {
+    background-color: lightgrey;
+}
+
+.verde-escuro {
+    background-color: darkgreen;
+    color: white;
+}
+
+.azul-escuro {
+    background-color: darkblue;
+    color: white;
+}
+
+.simbolo-neve {
+    margin-top: 20px; /* Adiciona espaço entre os quadrados e o símbolo de neve */
+}
+
+.simbolo-neve p {
+    color: lightcoral; /* Cor do texto "Matéria optativa recomendada" */
+}
+
+/* Regras de Mídia */
+@media only screen and (max-width: 768px) {
+    .caixa-azul {
+        width: 80%; /* Ajusta a largura para dispositivos menores */
+    }
+
+    .carga-horaria {
+        margin-left: 0; /* Remove a margem à esquerda para dispositivos menores */
+    }
+
+    .quadrados {
+        text-align: center; /* Centraliza os quadrados para dispositivos menores */
+    }
+
+    .quadrado {
+        margin-right: 15px; /* Reduz o espaço entre os quadrados para dispositivos menores */
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Divide em duas colunas */
+    justify-content: center;
+    align-items: flex-start; /* Alinha itens ao topo */
+    gap: 20px; /* Espaço entre as colunas */
+    padding: 20px; /* Espaço interno do container */
+}
+.half {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.half:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+h2 {
+    margin-top: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
